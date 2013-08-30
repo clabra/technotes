@@ -11,7 +11,7 @@ If you use Python, clone package in your src directory with:
 
     $ pip install -e git+[github_fork_https_url]#egg=[package_name]
 
-To install in such a way that any source change will be visible right away without reinstall each time
+To install in such a way that any source change will be visible right away without reinstall each time: 
 
     $ cd src/[package_name]
       $ python setup.py develop 
