@@ -16,7 +16,7 @@ When change default:
 
 * blank=True, null=False 
   * General: will raise IntegrityError anytime the field is left blank
-  * CharField or TextField: It's OK. 
+  * CharField or TextField: It's OK. will save '' if field is left blank 
 
 * blank=False, null=True 
   * General: will always require the field to be filled out in all forms (forms will raise ValidationError on the field), even though the column is allowed to be NULL. However, this only applies to forms. You could manually set the attribute to None and save it outside of a form (in the shell, for example).
