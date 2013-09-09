@@ -5,7 +5,7 @@ I'm using a Django generic DetailView to show an object. How to get it from data
 
 E.g. 
 
-    domain.com/object/Y23ewq45
+    domain.com/model/Y23ewq45e74
 
     url(r'^(?P<uuid>\w{11})/', views.DetailView.as_view(), name='detail')
 
