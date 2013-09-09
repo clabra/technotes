@@ -1,4 +1,4 @@
-blank and null in Django fields
+Blank and null in Django fields
 -------------------------------
 
 See http://stackoverflow.com/a/8159520
