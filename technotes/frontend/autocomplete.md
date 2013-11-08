@@ -15,7 +15,7 @@ Sharing some experiences about what autocomplete js solution choose. I need it f
   * Pros: Easy and integrated in bootstrap
   * Cons: Deprecated in new versions in favor of Twitter typeahead.js
 
-* Twitter typeahead.js 
+* <a href="http://twitter.github.io/typeahead.js/">Twitter typeahead.js</a> 
   * Pros: Very complete (see cache features)
   * Cons: To integrate with bootstrap you have to download CSS. Needs additional template engine
 
